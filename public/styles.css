@@ -1,0 +1,50 @@
+body {
+  background-color: #f5f5f5 !important;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main-sec {
+  background: white;
+  width: 50% !important;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.main-sec h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Oswald';
+}
+form{
+  width: 500px;
+}
+form .form-group {
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  width: 100%;
+  height: 50px;
+  border: 3px solid #1f233e;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Oswald';
+  font-size: 20px;
+}
+
+form button[type="submit"] {
+  width: 100%;
+  height: 50px;
+  background-color: #BB0001;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-transform: uppercase;
+}

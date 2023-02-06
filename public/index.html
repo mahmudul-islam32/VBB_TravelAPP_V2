@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VBB</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="/styles/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  </head>
+  <body> 
+      <div class="container main-sec">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>VBB TRANSPORT</h1>
+            <div class="d-flex align-items-center h-100">
+              <form class="mx-auto" action="/search" method="post">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="from" id="from" placeholder="Enter starting location" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="to" id="to" placeholder="Enter destination" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./browser-app.js"></script>
+  </body>
+</html>
